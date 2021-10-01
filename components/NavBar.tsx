@@ -7,8 +7,8 @@ import classes from 'lib/classes';
 
 const navigation = [
 	{ name: 'About', href: '#about' },
-	{ name: 'Newsletter', href: '#newsletter' },
-	{ name: 'Discord', href: '/discord' },
+	{ name: 'Integrations', href: '#integrations' },
+	{ name: 'Discord', href: 'https://discord.gg/b8ugMm7nvc' },
 ];
 
 export default function Navbar() {

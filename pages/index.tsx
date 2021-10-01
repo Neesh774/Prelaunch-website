@@ -24,7 +24,7 @@ export default function Home() {
 				</div>
 				<Divider />
 			</section>
-			<section className='foreground right'>
+			<section className='foreground right' id='about'>
 				<div id='content' className='inline'>
 					<pre>
 						<Code language='javascript' code={snippetCode} />
@@ -52,8 +52,21 @@ export default function Home() {
 						</p>
 					</span>
 				</div>
+				<Divider />
 			</section>
-			<div className="footer foreground">
+			<section className='foreground right' id='integrations'>
+				<div id='content' className='inline'>
+					<span className='text'>
+						<p className='badge blue'>Use Monad Everywhere</p>
+						<h1>Integrations</h1>
+						<p>
+							Monad will have plenty of integrations with other services like VSCode, Discord,
+							and more. You&apos;ll be able to share your snippets from all your favorite code resources.
+						</p>
+					</span>
+				</div>
+			</section>
+			<div className="footer">
 				<footer>
 					<div>
 						<h3>Monad</h3>

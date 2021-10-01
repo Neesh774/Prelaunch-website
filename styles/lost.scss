@@ -6,11 +6,8 @@
 h2 {
     line-height: 2;
 }
-div {
-    text-align: center;
-}
 
-.blue {
+.home-link {
     color: var(--blue);
     text-decoration: underline;
 }
@@ -19,4 +16,5 @@ div {
     justify-content: center;
     margin: 12rem auto;
     place-content: center;
+    text-align: center;
 }

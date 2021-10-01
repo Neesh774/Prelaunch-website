@@ -7,7 +7,7 @@ export default function Lost() {
                 <h2>
                     Looks like you ended up somewhere you shouldn&apos;t be! <br />
                     <Link href="/">
-                        <a className="blue">Here&apos;s the way home</a>
+                        <a className="home-link">Here&apos;s the way home</a>
                     </Link>
                 </h2>
             </div>
