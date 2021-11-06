@@ -1,7 +1,6 @@
 import MetaTags from 'components/MetaTags';
 import Divider from 'components/Divider';
 import Code from 'components/Code';
-
 const snippetCode = `
 export default function App(props) {
 	return (
@@ -21,6 +20,7 @@ export default function Home() {
 					<h1 className='header'>
 						Share <span className='blue'>snippets</span> in seconds
 					</h1>
+					<img src={'/Collaboration.svg'} alt="Collaboration"/>
 				</div>
 				<Divider />
 			</section>
@@ -51,11 +51,13 @@ export default function Home() {
 							trust. Keep your snippets unlisted, or public to anyone to view.
 						</p>
 					</span>
+					<img src={'/Security.svg'} alt="Security"/>
 				</div>
 				<Divider />
 			</section>
 			<section className='foreground right' id='integrations'>
 				<div id='content' className='inline'>
+					<img src={'/Integrations.svg'} alt="Integrations"/>
 					<span className='text'>
 						<p className='badge blue'>Use Monad Everywhere</p>
 						<h1>Integrations</h1>
