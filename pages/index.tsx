@@ -79,7 +79,7 @@ export default function Home() {
 					<div>
 						<h3>Contact Us</h3>
 						<a href="https://discord.gg/b8ugMm7nvc">Discord</a>
-						<a href="">Twitter</a>
+						<a href="https://twitter.com/TeamMonad">Twitter</a>
 						<a href="mailto:Kanishq0106@gmail.com">Email</a>
 					</div>
 				</footer>
