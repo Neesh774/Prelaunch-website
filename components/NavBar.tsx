@@ -6,8 +6,8 @@ import styles from 'styles/navbar.module.scss';
 import classes from 'lib/classes';
 
 const navigation = [
-	{ name: 'About', href: '#about' },
-	{ name: 'Integrations', href: '#integrations' },
+	{ name: 'About', href: '/#about' },
+	{ name: 'Integrations', href: '/#integrations' },
 	{ name: 'Discord', href: 'https://discord.gg/b8ugMm7nvc' },
 ];
 

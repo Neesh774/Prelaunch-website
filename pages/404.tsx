@@ -10,7 +10,7 @@ export default function Lost() {
                         <a className="home-link">Here&apos;s the way home</a>
                     </Link>
                 </h2>
-                <img src={'./404.svg'} alt="404"/>
+                <img src={'/404.svg'} alt="404"/>
             </div>
         </div>
 	);
