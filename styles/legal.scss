@@ -1,0 +1,26 @@
+.legal {
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 1rem 9rem 5rem;
+    a {
+        text-decoration: underline;
+    }
+    .header {
+        display: flex;
+        margin: 2rem 0;
+        vertical-align: baseline;
+        max-width: fit-content
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        svg {
+            margin-left: 0.3rem;
+            vertical-align: baseline;
+        }
+    }
+    .copyright {
+        margin-top: 2rem;
+        font-weight: 600;
+    }
+}

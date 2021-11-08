@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import MetaTags from 'components/MetaTags';
 import Divider from 'components/Divider';
 import Code from 'components/Code';
@@ -72,9 +73,8 @@ export default function Home() {
 				<footer>
 					<div>
 						<h3>Monad</h3>
-						<a href="/create">Create a snippet</a>
-						<a href="/legal">Terms and Conditions</a>
-						<a href="/newsletter">Newsletter</a>
+						<Link href="/terms">Terms and Conditions</Link>
+						<Link href="/privacy">Privacy Policy</Link>
 					</div>
 					<div>
 						<h3>Contact Us</h3>
