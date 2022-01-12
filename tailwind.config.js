@@ -1,28 +1,28 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
-    purge: [],
-    darkMode: 'class', // or 'media' or 'class'
-    theme: {
-      extend: {
-        fontFamily: {
-            logo: ['Rubik'],
-            text: ['Inter']
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      keyframes: {
+        "fade-up": {
+          '0%': { opacity: 0, transform: 'translateY(20px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
         },
-        colors: {
-            white:'#EAEAEA',
-            textGray: '#666666',
-            blue: '#4B82F3',
-            logoGreen: '#53B555',
-            pink: '#EF516F',
-            black: '#000000',
-            darkHeaderBg: '#1E1E1E',
-            lightGray: '#1a1a1a'
-          }
+        "fade-up-delayed": {
+          '0%': { opacity: 0, transform: 'translateY(20px)' },
+          '60%': { opacity: 0, transform: 'translateY(20px)', filter: 'blur(1rem)' },
+          '100%': { opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' },
+        }
       },
+      animation: {
+        "fade-up": "fade-up 1s",
+        "fade-up-1": "fade-up-delayed 2s",
+        "fade-up-2": "fade-up-delayed 3s",
+        "fade-up-3": "fade-up-delayed 4s",
+      }
     },
-    variants: {
-      extend: {},
-    },
-    plugins: [],
-  }
+  },
+  plugins: [],
+}

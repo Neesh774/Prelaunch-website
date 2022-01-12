@@ -25,7 +25,7 @@ export default function Navbar() {
 					<header className={styles.header}>
 						<nav>
 							<Link href='/'>
-								<a className={classes('logo', styles.logo)}>
+								<a className={classes('logo', styles.logo, 'flex items-center')}>
 									<span>Monad</span>
 									<img src='/monad.svg' alt='Monad Logo' />
 								</a>

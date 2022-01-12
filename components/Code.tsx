@@ -6,17 +6,19 @@ export default function Code({
 	code,
 	plugins,
 	language,
+	className
 }: {
 	code: string;
 	plugins?: string[];
 	language: string;
+	className?: string;
 }) {
 	useEffect(() => {
 		Prism.highlightAll();
 	}, []);
 
 	return (
-		<pre className={!plugins ? '' : plugins.join(' ')}>
+		<pre className={`${className} ${!plugins ? '' : plugins.join(' ')}`}>
 			<code className={`language-${language}`}>{code.trim()}</code>
 		</pre>
 	);

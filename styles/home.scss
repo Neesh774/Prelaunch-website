@@ -1,38 +1,14 @@
+main {
+	margin-left: auto;
+	margin-right: auto;
+}
 section {
-	position: relative;
-	height: calc(100vh - 150px);
 	display: grid;
 	place-content: center;
-	padding: 1rem 12%;
-	padding-bottom: 150px;
-
-	#content {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-wrap: nowrap;
-
-		&.inline {
-			gap: 0.4rem;
-		}
-
-		.text {
-			max-width: 46%;
-		}
-	}
-
-	&.right {
-		text-align: right;
-		justify-content: end;
-	}
-
-	&.left {
-		text-align: left;
-		justify-content: start;
-	}
 }
 .footer {
 	padding-top: 1rem;
+	background-color: var(--foreground);
 }
 footer {
 	position: relative;
@@ -52,15 +28,10 @@ footer {
 	padding-bottom: 1rem;
 }
 
-.header {
-	font-size: 3rem;
-	font-weight: bold;
-	max-width: 12ch;
-}
-
 pre {
 	border-radius: 15px;
 	padding-right: 1rem;
+	padding: 1rem;
 }
 
 @media screen and (max-width: 768px) {
