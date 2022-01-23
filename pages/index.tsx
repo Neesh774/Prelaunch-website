@@ -1,6 +1,8 @@
 import Link from "next/link";
 import MetaTags from "components/MetaTags";
 import Code from "components/Code";
+import Beta from "components/Beta";
+import { useState } from "react";
 const snippetCode = `
 export default function App(props) {
 	return (
@@ -15,8 +17,9 @@ export default function Home() {
   return (
     <>
       <MetaTags />
+      <Beta/>
       <div className="section container 2xl:px-18 md:px-8 sm:px-0 py-10 mx-auto">
-        <section className="grid md:grid-cols-2 my-16 gap-5 animate-fade-up">
+        <section className="gri d md:grid-cols-2 my-16 gap-5 animate-fade-up">
           <div className="flex order-2 md:order-first flex-wrap items-center text-5xl">
             <h3 className="font-extrabold">
               Share{" "}

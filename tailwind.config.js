@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "brandBlue": "#4b82f3",
+        "blueDark": "#245fd4"
+      },
       keyframes: {
         "fade-up": {
           '0%': { opacity: 0, transform: 'translateY(20px)' },
